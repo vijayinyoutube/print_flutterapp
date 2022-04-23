@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Screens/home_page.dart';
+import 'Presentation/Screens/UI/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Printer Demo'),
     );
   }
 }
